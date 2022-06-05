@@ -6,8 +6,8 @@ The first part is to show some basic feature of each stock the user selects,
 and the second part is to show some common strategy performance.
 
 For the FIRST part, the user can choose the time window and the stock they want, we have the default time window here, and after the user choose the ticker, the four graphs will be plotted, and also the number of traces and number of days will be displayed, which are Monte Carlo simulation parameters.
-  Number of Traces can be set from 10 to 200 with step 10, and default value 50.
-  Number of Days can be set from 10 to 100 with step 5, and default value 30.
+- Number of Traces can be set from 10 to 200 with step 10, and default value 50.
+- Number of Days can be set from 10 to 100 with step 5, and default value 30.
 
 Here we got four graphs, and we use flex to display them into 2 by 2 frame, and we also add some cube loading animation here to make it more beautiful. 
 
